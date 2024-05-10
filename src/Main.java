@@ -11,3 +11,21 @@ class Bike {
         this.model = model;
         this.price = price;
     }
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    @Override
+    public String toString() {
+        return "Brand: " + brand + ", Model: " + model + ", Price: $" + price;
+    }
+}
